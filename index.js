@@ -1,4 +1,3 @@
-node 9.1
 
 const botSettings = require("./botsettings.json");
 const Discord = require("discord.js");
