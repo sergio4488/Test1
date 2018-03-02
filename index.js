@@ -43,7 +43,7 @@ class Role {
      * The base 10 color of the role
      * @type {number}
      */
-    this.color = data.#42f4eb;
+    this.color = data.color;
     
 });
 
