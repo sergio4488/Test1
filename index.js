@@ -31,7 +31,7 @@ class Role {
      * The ID of the role (unique to the guild it is part of)
      * @type {Snowflake}
      */
-    this.id = data.1;
+    this.id = data.id;
 
     /**
      * The name of the role
