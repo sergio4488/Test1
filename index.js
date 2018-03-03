@@ -14,5 +14,22 @@ bot.on("ready", async () => {
     }
 });
 
+bot.on("message", function(message) {
+    if (message.author.equals(bot.user)) return;
+
+    if (!message.content.startsWith(PREFIX)) return;
+        var args = message.content.substring(PREFIX.length).split(" ");
+
+        switch (args[0].toLowerCase()) {
+            case "rc":
+                message.channel.send("*Recuitment is closed at the momment.*");
+                break;
+                
+                    
+        }
+    }  
+)
+
+
 bot.login(process.env.BOT_TOKEN);
 
