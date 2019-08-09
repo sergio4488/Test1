@@ -4,7 +4,7 @@ const Discord = require("discord.js");
 const bot = new Discord.Client({disableEveryone: true});
 
 bot.on("ready", async () => {
-    console.log("Bot is ready! ${bot.user.username}");
+    console.log("Pulse Design Pool Boy is ready to work! ${bot.user.username}");
 
     try {
         let link = await bot.generatorInvite(["ADMINISTRATOR"]);
